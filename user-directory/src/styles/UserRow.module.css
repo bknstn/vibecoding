@@ -1,0 +1,24 @@
+.row {
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .row:hover {
+    background: #f3f6f9;
+  }
+  .email {
+    color: #5b7c99;
+    font-size: 0.9em;
+  }
+  .deleteBtn {
+    background: #f04747;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 7px 14px;
+    cursor: pointer;
+    transition: background 0.18s;
+    font-weight: 600;
+  }
+  .deleteBtn:hover {
+    background: #c23636;
+  }

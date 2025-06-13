@@ -1,0 +1,51 @@
+.overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(26,34,44,0.62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    animation: fadeIn 0.2s;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .modal {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 28px rgba(0,0,0,0.19);
+    max-width: 410px;
+    width: 100%;
+    padding: 32px 24px 20px 24px;
+    position: relative;
+    animation: popIn 0.26s cubic-bezier(.26,1.13,.74,.97);
+  }
+  @keyframes popIn {
+    from { transform: scale(0.88); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  .closeBtn {
+    position: absolute;
+    right: 18px;
+    top: 14px;
+    font-size: 1.8em;
+    background: none;
+    border: none;
+    color: #d0d3db;
+    cursor: pointer;
+    transition: color 0.16s;
+  }
+  .closeBtn:hover {
+    color: #444b58;
+  }
+  .username {
+    font-size: 0.9em;
+    color: #8497ab;
+  }
+  .infoBlock {
+    margin: 14px 0 2px 0;
+    font-size: 1.03em;
+    line-height: 1.45;
+  }

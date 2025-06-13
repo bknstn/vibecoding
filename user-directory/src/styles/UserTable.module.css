@@ -1,0 +1,27 @@
+.tableWrapper {
+    overflow-x: auto;
+    margin: 24px;
+  }
+  .userTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.07);
+  }
+  .userTable th, .userTable td {
+    padding: 16px 12px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .userTable th {
+    background: #f8f9fa;
+    font-weight: 600;
+  }
+  @media (max-width: 768px) {
+    .userTable th, .userTable td {
+      padding: 10px 6px;
+      font-size: 0.96em;
+    }
+  }
